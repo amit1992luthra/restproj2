@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3495" started-at="2022-03-17T11:13:40Z" finished-at="2022-03-17T11:13:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3495" started-at="2022-03-17T11:13:40Z" finished-at="2022-03-17T11:13:44Z">
+      <class name="rest_sample.day1">
+        <test-method status="PASS" signature="postexample1(org.testng.ITestContext)[pri:0, instance:rest_sample.day1@2133c8f8]" name="postexample1" duration-ms="3412" started-at="2022-03-17T16:43:40Z" finished-at="2022-03-17T16:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c9f9fb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postexample1 -->
+        <test-method status="PASS" signature="testcase2(org.testng.ITestContext)[pri:0, instance:rest_sample.day1@2133c8f8]" name="testcase2" duration-ms="61" started-at="2022-03-17T16:43:44Z" depends-on-methods="rest_sample.day1.postexample1" finished-at="2022-03-17T16:43:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c9f9fb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- rest_sample.day1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
